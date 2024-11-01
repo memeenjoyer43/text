@@ -66,7 +66,7 @@ local leftArm = character["Left Arm].LeftGripAttachment
 local leftArmBillboardGui = createBillboardGui(leftArm, "Domain Expansion", 0)
 
 -- Attach BillboardGui to Head with text "Awakening" and 2-second delay
-local head = character["Right Arm].RightGripAttachment
+local head = character["Right Arm].RightShoulderAttachment
 local headBillboardGui = createBillboardGui(head, "Malevolent Shrine", 2)
 
 -- Optionally, destroy the BillboardGuis after use
