@@ -62,11 +62,11 @@ local function createBillboardGui(adornee, text, delay)
 end
 
 -- Attach BillboardGui to LeftArm with text "Domain Expansion" and no delay
-local leftArm = character["Left Arm]
+local leftArm = character["Left Arm].LeftShoulderAttachment
 local leftArmBillboardGui = createBillboardGui(leftArm, "Domain Expansion", 0)
 
 -- Attach BillboardGui to Head with text "Awakening" and 2-second delay
-local head = character["Right Arm]
+local head = character["Right Arm].RightShoulderAttachment
 local headBillboardGui = createBillboardGui(head, "Malevolent Shrine", 2)
 
 -- Optionally, destroy the BillboardGuis after use
